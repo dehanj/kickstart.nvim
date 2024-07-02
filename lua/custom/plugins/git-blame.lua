@@ -3,6 +3,7 @@ return {
   config = function()
     require('gitblame').setup {
       enabled = false,
+      message_template = '<sha>•<date>•<summary>•<author>',
     }
   end,
 }
